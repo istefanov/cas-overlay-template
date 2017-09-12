@@ -1,0 +1,12 @@
+
+        {
+  			"@class" : "org.apereo.cas.services.RegexRegisteredService",
+            "serviceId":"^(https?|imaps?)://.*",
+			  "name" : "sample",
+			  "id" : 1,
+			  "description" : "sample",
+			  "evaluationOrder":1,
+			  "attributeReleasePolicy" : {
+			    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+			  }
+		}
